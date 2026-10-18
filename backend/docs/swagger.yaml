@@ -1,0 +1,13 @@
+openapi: 3.0.0
+info:
+  title: API Consultas Online
+  version: 1.0.0
+  description: API completa para consultas online, pagamentos, suporte, etc.
+servers:
+  - url: http://localhost:4000/api
+paths:
+  /auth/register:
+    post:
+      summary: Cadastro de usuário
+      ...
+  # Continue documentando cada rota principal

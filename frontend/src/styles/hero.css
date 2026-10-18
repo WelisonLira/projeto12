@@ -1,0 +1,57 @@
+:root {
+  --bg: #F5F6FA;
+  --surface: #fff;
+  --primary: #3B4252;
+  --secondary: #8C929D;
+  --accent: #4B9CD3;
+  --contrast: #22283A;
+  --success: #3CB371;
+  --warning: #E7A700;
+  --error: #D9534F;
+  --text: #22283A;
+  --text-secondary: #6D7380;
+  --border: #E0E4EA;
+  --shadow: 0 2px 12px #22283A0a;
+}
+
+.investigacao-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  padding: 2.3em 1.5em 2.3em 2.5em;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  margin-bottom: 2em;
+  gap: 2em;
+  min-height: 220px;
+}
+.hero-text h1 {
+  font-size: 2.0em;
+  font-weight: 700;
+  color: var(--primary);
+}
+.hero-text .highlight {
+  color: var(--accent);
+}
+.hero-visuals {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.1em;
+}
+.hero-lottie {
+  flex: 1;
+}
+.hero-boneco {
+  filter: drop-shadow(0 2px 12px #4B9CD355);
+  border-radius: 12px;
+  background: #fff;
+}
+.hero-svg {
+  opacity: 0.88;
+}
+@media (max-width: 700px) {
+  .investigacao-hero { flex-direction: column; gap: 0.7em; padding: 1em; }
+  .hero-visuals { gap: 0.3em; }
+  .hero-text h1 { font-size: 1.1em; }
+}

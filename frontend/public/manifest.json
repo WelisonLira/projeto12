@@ -1,0 +1,11 @@
+{
+  "short_name": "Consultas",
+  "name": "Consultas Online",
+  "background_color": "#F5F6FA",
+  "theme_color": "#3B4252",
+  "display": "standalone",
+  "icons": [
+    { "src": "icons/icon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

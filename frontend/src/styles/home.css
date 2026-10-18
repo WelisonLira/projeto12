@@ -1,0 +1,82 @@
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.home-header {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 38px;
+}
+.home-header h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+.cta-btn {
+  background: var(--primary);
+  color: #fff;
+  padding: 0.7em 1.6em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 18px;
+  display: inline-block;
+  font-size: 1.1em;
+  transition: background 0.2s;
+}
+.cta-btn:hover { background: #1563ab; }
+.home-ranking, .home-blog, .home-depoimentos, .home-info {
+  margin-bottom: 36px;
+}
+.ranking-item {
+  background: #f9f9f9;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  padding: 0.7em 1em;
+  display: flex;
+  flex-direction: column;
+}
+.ranking-item strong { font-size: 1.05em; }
+.ranking-item a { margin-top: 4px; color: var(--primary); font-weight: bold; }
+.home-blog ul, .home-ranking ul {
+  list-style: none;
+  padding-left: 0;
+}
+.home-blog li, .home-ranking li {
+  border-bottom: 1px solid #ededed;
+  padding: 7px 0;
+}
+.blog-date { color: #888; font-size: 0.95em; margin-left: 8px; }
+.more-link {
+  margin-top: 10px;
+  display: inline-block;
+  color: var(--primary);
+}
+.home-depoimentos .depoimentos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.depoimento {
+  background: #f5f5fc;
+  border-radius: 9px;
+  padding: 14px 18px;
+  min-width: 230px;
+  flex: 1;
+  max-width: 270px;
+}
+.depoimento-stars {
+  color: #fbbc04;
+  font-size: 1.1em;
+  margin-bottom: 7px;
+  display: inline-block;
+}
+.home-info {
+  text-align: center;
+  color: #555;
+}
+.home-info img { vertical-align: middle; }
+@media (max-width: 700px) {
+  .home-depoimentos .depoimentos-list { flex-direction: column; }
+  .home-header h1 { font-size: 1.3em; }
+}
